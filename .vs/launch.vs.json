@@ -1,0 +1,16 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "nodeDbg",
+      "name": "C:\\Users\\Noble\\Desktop\\150407018@live.unilag.edu.ng",
+      "project": ""
+    },
+    {
+      "type": "nodeDbg",
+      "name": "del.js",
+      "project": "del.js"
+    }
+  ]
+}
