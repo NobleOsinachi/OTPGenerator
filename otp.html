@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Page</title>
+</head>
+
+<body>
+    <h1>OTP Generator</h1>
+    <p>The generated OTP is: <span id="otp"></span></p>
+
+    <script>
+        // Make an HTTP request to the OTP endpoint
+        fetch('http://localhost:3000')
+            .then(response => response.text())
+            .then(otp => {
+                // Set the OTP in the HTML element
+                const otpElement = document.getElementById('otp');
+                otpElement.textContent = otp;
+            })
+            .catch(error => {
+                console.error('Error fetching OTP:', error);
+            });
+    </script>
+</body>
+
+</html>

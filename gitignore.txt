@@ -1,0 +1,17 @@
+# ignore node_modules directory
+node_modules/
+
+# ignore output directories
+/dist/
+/build/
+
+# ignore IDE and editor files
+.vscode/
+.idea/
+
+# ignore environment variables file
+.env
+
+# ignore TypeScript configuration files
+tsconfig.json
+tsconfig.build.json

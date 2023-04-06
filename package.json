@@ -1,0 +1,59 @@
+{
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.4"
+  },
+  "name": "otpGenerator",
+  "description": "A simple TypeScript code to generate a 6 digit One Time Password",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-styles": "^4.3.0",
+    "braces": "^3.0.2",
+    "chalk": "^4.1.2",
+    "ci-info": "^3.8.0",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "diff-sequences": "^29.4.3",
+    "escape-string-regexp": "^2.0.0",
+    "expect": "^29.5.0",
+    "fill-range": "^7.0.1",
+    "graceful-fs": "^4.2.11",
+    "has-flag": "^4.0.0",
+    "is-number": "^7.0.0",
+    "jest-diff": "^29.5.0",
+    "jest-get-type": "^29.4.3",
+    "jest-matcher-utils": "^29.5.0",
+    "jest-message-util": "^29.5.0",
+    "jest-util": "^29.5.0",
+    "js-tokens": "^4.0.0",
+    "micromatch": "^4.0.5",
+    "picomatch": "^2.3.1",
+    "pretty-format": "^29.5.0",
+    "react-is": "^18.2.0",
+    "slash": "^3.0.0",
+    "supports-color": "^7.2.0",
+    "stack-utils": "^2.0.6",
+    "to-regex-range": "^5.0.1"
+  },
+  "scripts": {
+    "start": "tsc && node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "OTP",
+    "TypeScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NobleOsinachi/otpGenerator.git"
+  },
+  "author": "Noble Osinachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NobleOsinachi/otpGenerator/issues"
+  },
+  "homepage": "https://github.com/NobleOsinachi/otpGenerator#readme"
+}

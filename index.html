@@ -1,1 +1,19 @@
-index html file
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Page</title>
+</head>
+
+<body>
+    <h1>OTP Generator</h1>
+    <p>The generated OTP is: <span id="otp"></span></p>
+
+    <script @type="module" src="./otpGenerator.js"></script>
+    <script>
+        const otpElement = document.getElementById('otp');
+        otpElement.textContent = otpGenerator.generateOTP();
+    </script>
+</body>
+
+</html>
