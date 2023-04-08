@@ -2,6 +2,8 @@ const http = require('http');
 let otpGenerator = require('./otpGenerator');
 otpGenerator = otpGenerator.otpGenerator;
 
+const port = process.env.PORT || 3000;
+
 const server = http.createServer((req, res) => {
     if (req.url === '/api/otp') {
         // Set the response headers
@@ -21,7 +23,7 @@ const server = http.createServer((req, res) => {
     }
 });
 
-// Start the server and listen on port 3000
-server.listen(3000, () => {
-    console.log('Server listening on port 3000');
+// Start the server and listen on the specified port
+server.listen(port, () => {
+    console.log(`Server listening on port ${port}`);
 });
